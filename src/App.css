@@ -82,6 +82,7 @@
 }
 .burger-menu {
   margin-left: 20px;
+  cursor: pointer;
 }
 .side-menu {
   height: 100%;
