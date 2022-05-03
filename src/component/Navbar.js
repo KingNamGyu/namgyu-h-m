@@ -43,12 +43,12 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
           <FontAwesomeIcon icon={faBars} onClick={() => setWidth(250)} />
         </div>
         {authenticate ? (
-          <div onClick={() => setAuthenticate(false)}>
+          <div className="login-button" onClick={() => setAuthenticate(false)}>
             <FontAwesomeIcon icon={faUser} />
             <span>로그아웃</span>
           </div>
         ) : (
-          <div onClick={() => navigate("/login")}>
+          <div className="login-button" onClick={() => navigate("/login")}>
             <FontAwesomeIcon icon={faUser} />
             <span>로그인</span>
           </div>
