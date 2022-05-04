@@ -88,3 +88,4 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
 };
 
 export default Navbar;
+
