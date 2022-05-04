@@ -55,7 +55,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
         )}
       </div>
 
-      <div className="nav-logo">
+      <div className="nav-section">
         <Link to="/">
           <img
             width={100}
